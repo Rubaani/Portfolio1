@@ -4,41 +4,60 @@
         <meta charset = "UTF-8" >
         <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
         <title>Rubaani Manrai</title>
+        <link href = "./style.css" rel="stylesheet">   
     </head>
+
     <body>
         <img src="./images/femaleAvatar.svg" alt="Female Avatar"/>
-        <h1>Rubaani Manrai</h1>
-        <p>Hi,
-            I am currently in the second year in CSE at BIT-Mesra, Jaipur Campus </p>
-        <p> My hobbies include:</p>
-        <img src="./images/makingArt.svg" alt="Making Art"/>
+        <h1>RUBAANI MANRAI</h1>
+        <nav>
+            <ul class = "navbar">
+                <a href = "#"><li>About</li></a>
+                <a href = "#myhobbies"><li>Hobbies</li></a>
+                <a href = "#myskills"><li>Skills</li></a>
+                <a href = "#mylinks"><li>Contact</li></a>
+            </ul>
+        </nav>
+        <hr>
+        <div class="intro">
+            <p>Hi,</p>
+            <p>    I am currently in the second year in CSE at BIT-Mesra, Jaipur Campus. </p>
+            <p>  I have am a part of a Web Development Bootcamp and this is me building a web page!  </p>
+        </div>
+        <hr>
+        <div class="hobbies">
+            
+        <h2 class="heading" id="myhobbies"> Hobbies </h2>
+                <img src="./images/makingArt.svg" alt="Making Art"/>
         <img src="./images/listeningMusic.svg" alt="Listening to Music"/>
         <img src="./images/baking.svg" alt="Baking"/>
-        <p>Making Art Listening to Music  Baking        
-        <hr />
-        <h2>Skills</h2>
         <ul>
-            <li>C and C++ </li>
-            <li>HTML </li>
+            <li>Making Art</li>
+            <li> Listening to Music</li>
+            <li>  Baking</li>
+        </div>        
+        <hr />
+        <p class="heading" id="myskills">SKILLS</p>
+        <ul class = "skills">
+            <li>C </li>
+            <li> C++ </li>
+            <li>Python</li>
             <li>My SQL </li>
             <li>German </li>   
         </ul>
-        <hr>
-        
-        <nav>
-            <h1>Navbar</h1>
+        <hr>      
+        <div class = "links" id="mylinks">
+            <h2>LINKS</h2>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+            <a href="https://www.linkedin.com/in/rubaani-manrai-791a991b7" target="_blank"><li>LinkedIn</li> </a>
+            <a href="https://github.com/Rubaani" target="_blank"><li>GitHub</li></a>
             </ul>
-        </nav>
-        <div>
-            <h2>Links</h2>
-            <a href="https://www.linkedin.com/in/rubaani-manrai-791a991b7" target="_blank">LinkedIn </a>
-            <a href="https://github.com/Rubaani" target="_blank">GitHub</a>
-            <!-- Links -->
         </div>
+
         <hr>
+
+        <button>CLICK HERE!</button>
+
+        <input type="text" placeholder="Type Here"/>
     </body>
 </html>

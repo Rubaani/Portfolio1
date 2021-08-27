@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'KaiseiHarunoUmi', sans-serif;
+    color:rgb(240, 75, 103);
+}
+
+.navbar li{
+    color:black;
+    font-size: 1.5rem;
+    display:inline;
+    padding-left:5rem;
+    list-style: none;
+           
+    }
+
+.intro{
+    background-color:rgb(189, 247, 247);
+    font-size: 1.7rem;
+    padding: 5rem;
+    margin:150px ;
+    color:rgb(255, 77, 77);
+    border-style:solid;
+    border-color:rgb(240, 75, 103);
+    border-width: 1.5rem;
+    width: 1100px
+}
+
+.hobbies li{
+    color:rgba(255, 51, 0, 0.959);
+    font-size: 2rem;
+    background:rgb(189, 247, 247) ;
+    height: 50%;
+    width: 1000px;
+    padding:50px;
+    list-style: none;
+    display:inline;
+    
+    
+}
+.hobbies{
+    color:Red;
+    background:rgb(189, 247, 247) ;
+    height: 10%;
+    width: 1000px;
+    font-size: 3rem;
+    text-align:center;
+    padding: 50px;
+    margin: 250px;
+    list-style: none;
+    
+}
+
+
+p.heading
+{
+    color:rgba(255, 51, 0, 0.959);
+    font-size: 4rem;
+    text-align: center;
+    margin:1.5rem;
+    
+    padding-top:5rem;
+}
+
+
+.skills li{
+    background-color:rgb(0, 140, 255);
+    color:rgb(238, 255, 0);
+    font-size: 2rem;
+    list-style: none;
+    padding: 2rem;
+    margin: 3rem 3rem;
+    width: 60rem
+
+          
+}
+
+.skills{
+    color:Red;
+    background:rgb(189, 247, 247) ;
+    padding: 1rem;
+    text-align:center;
+    width:70rem;
+    margin: 10rem;
+       
+}
+
+
+.links{
+    color:Red;
+    background:rgb(189, 247, 247) ;
+    height: 10%;
+    width: 1000px;
+    font-size: 3rem;
+    text-align:center;
+    padding: 50px;
+    margin: 250px;
+    list-style: none;
+    border-style:solid;
+    border-color:rgb(240, 75, 103);
+    border-width: 1.5rem;
+    
+}
+.links li{
+    list-style: none;
+    display:inline;
+    padding-right:3rem ;
+    
+}
